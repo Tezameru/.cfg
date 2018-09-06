@@ -1,9 +1,9 @@
 clear Lock
-keycode 66 = Mode_switch
-keycode 26 = e E EuroSign cent
-keycode 30 = u U udiaeresis Udiaeresis
-keycode 32 = o O odiaeresis Odiaeresis
-keycode 38 = a A adiaeresis Adiaeresis
+keycode 108 = Mode_switch
+keycode 14 = 5 percent EuroSign cent
+keycode 29 = y Y udiaeresis Udiaeresis
+keycode 33 = p P odiaeresis Odiaeresis
+keycode 24 = q Q adiaeresis Adiaeresis
 keycode 39 = s S ssharp
 keycode 58 = m M mu
 keycode 57 = n N ntilde Ntilde
@@ -11,7 +11,6 @@ keycode 48 = apostrophe quotedbl eacute Eacute
 keycode 49 = grave asciitilde egrave Egrave
 keycode 15 = 6 asciicircum ecircumflex Ecircumflex
 keycode 61 = slash question questiondown
-keycode 29 = y Y ydiaeresis yacute
 keycode 54 = c C ccedilla copyright
 keycode 19 = 0 parenright degree
 keycode 27 = r R registered
@@ -20,3 +19,4 @@ keycode 11 = 2 at twosuperior
 keycode 12 = 3 numbersign threesuperior section
 keycode 51 = backslash bar brokenbar
 keycode 105 = Multi_key
+

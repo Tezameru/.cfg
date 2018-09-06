@@ -5,3 +5,4 @@ alias poweroff='sudo poweroff'
 
 #ls
 alias ll='ls -lsa --color=auto'
+
