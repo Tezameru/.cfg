@@ -14,10 +14,10 @@ HISTCONTROL=ignoreboth
 
 # append to the history file, don't overwrite it
 shopt -s histappend
-
 # for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
-HISTSIZE=1000
-HISTFILESIZE=2000
+HISTSIZE=
+HISTFILESIZE=
+HISTTIMEFORMAT="%h-%d-%Y - %H:%M:%S "
 
 # check the window size after each command and, if necessary,
 # update the values of LINES and COLUMNS.
@@ -113,3 +113,16 @@ if ! shopt -oq posix; then
 fi
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 export PATH=$PATH:$HOME/bin
+export PATH=$PATH:$HOME/Downloads/pycharm-community-2018.2.2/bin/
+export PATH=$PATH:$HOME/git/scripts/bash
+
+function raspi {
+	curl "http://techroom-pdu.media.cispa.saarland/sw?u=admin&p=Chinese123&o=1&f=$1"
+}
+function raspi_cycle {
+	curl "http://techroom-pdu.media.cispa.saarland/sw?u=admin&p=Chinese123&o=1&f=off"
+	sleep 4
+	curl "http://techroom-pdu.media.cispa.saarland/sw?u=admin&p=Chinese123&o=1&f=on"
+}
+
+
